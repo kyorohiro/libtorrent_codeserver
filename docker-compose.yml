@@ -5,6 +5,8 @@ services:
     ports: 
       - "8080:8080"
       - "8443:8443"
+      - "6881:6881"
+      - "6889:6889"
     volumes: 
       - ./app:/app
     command: code-server --auth none --host 0.0.0.0 --port 8443 /app 

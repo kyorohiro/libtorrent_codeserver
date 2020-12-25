@@ -37,8 +37,8 @@ RUN ninja install
 WORKDIR /works
 RUN apt-get update
 RUN apt-get install -y curl
-RUN curl -sSOL https://github.com/cdr/code-server/releases/download/v3.4.1/code-server_3.4.1_amd64.deb
-RUN dpkg -i code-server_3.4.1_amd64.deb
+RUN curl -sSOL https://github.com/cdr/code-server/releases/download/v3.8.0/code-server_3.8.0_amd64.deb
+RUN dpkg -i code-server_3.8.0_amd64.deb
 
 ## install vscode plugin
 RUN code-server --install-extension Dart-Code.dart-code
