@@ -7,6 +7,17 @@
 you must to use 0.29.0 at ms-vscode   because version 1.1.3 has bug. 
 https://github.com/cdr/code-server/issues/2120
 
+# Prepare 
+
+```
+cd res 
+git clone https://github.com/arvidn/libtorrent
+cd libtorrent
+git checkout RC_2_0
+git submodule init 
+git submodule update
+```
+
 # Start code-server
 
 ```
