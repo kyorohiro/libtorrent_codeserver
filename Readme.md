@@ -4,8 +4,12 @@
 
 
 # Memo
-you must to use 0.29.0 at ms-vscode   because version 1.1.3 has bug. 
-https://github.com/cdr/code-server/issues/2120
+you must to use 0.29.0 at ms-vscode   
+or install from a visx file ( https://github.com/microsoft/vscode-cpptools/releases/tag/1.1.0 )
+
+because current code-server has bug(?). https://github.com/cdr/code-server/issues/2305
+
+
 
 # Prepare 
 
