@@ -38,3 +38,19 @@ and open http://127.0.0.1:8443/ at your browser
 ```
 g++ main_simple_torrent.cpp  -ltorrent-rasterbar -lpthread
 ```
+
+# Memo
+
+
+/app/.vscode/settings.json
+
+```
+{
+    "C_Cpp.default.includePath": [
+        "/works/libtorrent/include/"
+    ],
+    "C_Cpp.default.browse.path": [
+        "/works/libtorrent/src/"
+    ]
+}
+```
